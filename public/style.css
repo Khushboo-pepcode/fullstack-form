@@ -1,0 +1,148 @@
+body{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d7dbd8;
+}
+/* for all  */
+h1,h2,h3,p,ul,li,ol{
+    margin:0;
+    padding: 0;
+}
+.is-flex{
+    display: flex;
+    flex-direction: row;
+}
+.is-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.space{
+    justify-content: space-between;
+}
+.list{
+    list-style:none;
+}
+
+
+/* ended for all */
+.main-heading {
+    margin: 50px 0;
+    text-align: center;
+    position: relative;
+}
+.main-heading::after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+/* .in-form{
+    width: 90%;
+    height: 100vh;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #fff;
+} */
+/* in-form */
+.form {
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.in-form ul li{
+    margin: 10px 0;
+}
+.in-form ul li input{
+    display: block;
+    width: 100%;
+    border-style: none;
+    border-radius: 4px;
+    padding: 10px 5px;
+}
+.in-form  ul li input:focus {
+    outline: none;
+}
+.in-form  ul li select{
+    display: block;
+    width: 100%;
+    border-style: none;
+    border-radius: 4px;
+    padding: 10px 5px;
+}
+ .in-form  ul li select:focus {
+    outline: none;
+}
+.red-button{
+    margin-right:20px;
+    padding: 10px 16px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #f55442;
+    border: 1px solid #f55442;
+    border-radius: 4px;
+}
+.red-button:hover{
+    color: #f55442;
+    background-color: #fff;
+}
+.green-button{
+    margin-right:20px;
+    padding: 10px 16px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #20701d;
+    border: 1px solid #20701d;
+    border-radius: 4px;
+}
+.green-button:hover{
+    color: #20701d;
+    background-color: #fff;
+}
+.blue-button{
+    margin-right:20px;
+    padding: 10px 16px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #421fdd;
+    border: 1px solid #421fdd;
+    border-radius: 4px;
+}
+.blue-button:hover{
+    color: #421fdd;
+    background-color: #fff;
+}
+/* table */
+.table{
+    margin:40px 0;
+    position: relative;
+}
+.in-table table{
+    width: 100%;
+    position: relative;
+}
+.in-table table tr{
+    padding: 15px 0;
+    border: none;
+}
+.in-table table td::nth-child(odd){
+    overflow: hidden;
+}
+
+.in-table table tr:nth-child(even){
+    background-color: #f2f3f5;
+}
+.in-table table tr th{
+    background-color: #394663;
+    color: #fff;
+    font-size: 20px;
+}
+/* .in-table table td{
+    border
+} */
